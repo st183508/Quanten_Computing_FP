@@ -16,3 +16,5 @@ A = [np.array([[1, 2], [3, 4]]), np.array([[1, 5], [4, 3]]), np.array([[2, 1], [
 print(qc.matrix_product(A))
 A = [qc.pauli_x(), qc.pauli_y(), qc.pauli_z()]
 print(qc.matrix_sum(A))
+
+print(qc.matrix_power(qc.pauli_y(), 3))
