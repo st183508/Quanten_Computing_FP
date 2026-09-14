@@ -2,3 +2,12 @@
 Extentions:
 	Git Graph 
 	Python (von MS)
+
+Git Status: 
+
+1.1a On branch main
+	Your branch is up to date with 'origin/main'.
+
+	nothing to commit, working tree clean
+
+1.2b
