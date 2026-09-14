@@ -1,3 +1,4 @@
-from quanten_computing_fp import hello 
+import quanten_computing_fp as qc
+import numpy as np
 
-print(hello())
+print(np.matmul(qc.pauli_x(),qc.pauli_y()))
