@@ -7,4 +7,4 @@ def greet(name: str) -> str:
     return "Hello, " + name
 
 
-print(greet("22"))
+print(greet("Einstein"))
