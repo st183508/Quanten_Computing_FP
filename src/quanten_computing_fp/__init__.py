@@ -22,3 +22,10 @@ def matrix_product(A):
         matrix_product_var = A[i] @ A[i + 1]
 
     return matrix_product_var
+
+
+def matrix_sum(A):
+    for i in range(len(A) - 1):
+        matrix_sum_var = A[i] + A[i + 1]
+
+    return matrix_sum_var
