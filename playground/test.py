@@ -1,4 +1,10 @@
 import quanten_computing_fp as qc
-import numpy as np
 
-print(np.matmul(qc.pauli_x(), qc.pauli_y()))
+hello_str = qc.hello()
+
+
+def greet(name: str) -> str:
+    return "Hello, " + name
+
+
+print(greet("22"))
