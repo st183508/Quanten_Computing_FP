@@ -15,3 +15,10 @@ def pauli_y():
 
 def pauli_z():
     return np.array([[1, 0], [0, -1]])
+
+
+def matrix_product(A):
+    for i in range(len(A) - 1):
+        matrix_product_var = A[i] @ A[i + 1]
+
+    return matrix_product_var
