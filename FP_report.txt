@@ -10,4 +10,6 @@ Git Status:
 
 	nothing to commit, working tree clean
 
-1.2b
+In vs code:
+ crtl + p = Search Files
+ crtl + shift + p = Search Commands
