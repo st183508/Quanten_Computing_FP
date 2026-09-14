@@ -8,3 +8,6 @@ def greet(name: str) -> str:
 
 
 print(greet("Einstein"))
+
+A = [qc.pauli_x(), qc.pauli_y(), qc.pauli_z()]
+print(qc.matrix_sum(A))

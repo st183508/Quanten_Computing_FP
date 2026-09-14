@@ -15,3 +15,10 @@ def pauli_y():
 
 def pauli_z():
     return np.array([[1, 0], [0, -1]])
+
+
+def matrix_sum(A):
+    for i in range(len(A) - 1):
+        matrix_sum_var = A[i] + A[i + 1]
+
+    return matrix_sum_var
