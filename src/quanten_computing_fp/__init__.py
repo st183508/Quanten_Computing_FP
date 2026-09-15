@@ -29,3 +29,13 @@ def matrix_sum(A):
         matrix_sum_var = A[i] + A[i + 1]
 
     return matrix_sum_var
+
+
+def matrix_power(matrix: np.ndarray, n: int) -> np.ndarray:
+    res = np.copy(matrix)
+    if n==0:
+        return np.identity(len(matrix[0]))
+    else:
+        for i in range(n-1):
+            res = np.dot(res, matrix)
+    return res
