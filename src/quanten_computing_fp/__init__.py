@@ -1,4 +1,5 @@
 import numpy as np
+from qiskit import QuantumCircuit
 
 
 def hello() -> str:
@@ -33,9 +34,9 @@ def matrix_sum(A):
 
 def matrix_power(matrix: np.ndarray, n: int) -> np.ndarray:
     res = np.copy(matrix)
-    if n==0:
+    if n == 0:
         return np.identity(len(matrix[0]))
     else:
-        for i in range(n-1):
+        for i in range(n - 1):
             res = np.dot(res, matrix)
     return res
