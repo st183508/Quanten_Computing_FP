@@ -16,3 +16,5 @@ In vs code:
 
 Git branch gibt mit einem stern an, in welchem branch man ist mit git switch kann man zwischen diesen wecheenl und wenn
 man git branch (branch name) eingibt erstellt er einen neuen branch
+
+Mit ctrl + d mehrere Sachen ändern
